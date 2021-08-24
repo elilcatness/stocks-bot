@@ -1,6 +1,5 @@
 import os
 from prettytable import PrettyTable
-from dotenv import load_dotenv
 from telegram.ext import Updater, CommandHandler
 from telegram.parsemode import ParseMode
 
@@ -49,5 +48,4 @@ def main():
 
 
 if __name__ == '__main__':
-    load_dotenv()
     main()
